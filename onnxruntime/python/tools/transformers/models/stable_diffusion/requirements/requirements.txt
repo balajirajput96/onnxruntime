@@ -1,13 +1,13 @@
 huggingface_hub==0.25.2
 diffusers==0.28.0
-transformers==4.50.0
+transformers==4.53.0
 numpy>=1.24.1
 accelerate
-onnx==1.17.0
+onnx==1.21.0rc1
 coloredlogs
 packaging
 # Use newer version of protobuf might cause crash
-protobuf==3.20.3
+protobuf==5.29.6
 psutil
 sympy
 nvtx==0.2.5
